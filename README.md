@@ -2,9 +2,11 @@
 通过词向量+神经网络进行深度学习，构建模型，实现用户意图的预测  
 
 ## 基于
+- jieba  
 - keras  
 - gensim  
 - sklearn  
+- xlutils  
 
 ## train.ipynb
 根据用户输入样本及标签的格式，通过递归创建模型树，为每个分支训练模型
